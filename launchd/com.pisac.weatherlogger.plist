@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/Modular/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>Label</key>
@@ -7,14 +7,13 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/Library/Frameworks/Python.framework/Versions/3.14/bin/python3</string>
+        <string>/Users/onurongen/desktop/projects/weather-tracker/venv/bin/python3</string>
         <string>/Users/onurongen/desktop/projects/weather-tracker/fetch_weather.py</string>
     </array>
 
     <key>WorkingDirectory</key>
     <string>/Users/onurongen/desktop/projects/weather-tracker</string>
 
-    <!-- Run every 3600 seconds (1 hour = 24x a day) -->
     <key>StartInterval</key>
     <integer>3600</integer>
 
@@ -23,7 +22,7 @@
 
     <key>StandardOutPath</key>
     <string>/Users/onurongen/desktop/projects/weather-tracker/launchd_stdout.log</string>
-    
+
     <key>StandardErrorPath</key>
     <string>/Users/onurongen/desktop/projects/weather-tracker/launchd_stderr.log</string>
 </dict>
