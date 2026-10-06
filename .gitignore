@@ -1,1 +1,6 @@
-echo ".env" > .gitignore
+.env
+plots/
+*.png
+venv/
+launchd_stdout.log
+launchd_stderr.log
